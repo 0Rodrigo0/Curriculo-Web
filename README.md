@@ -1,4 +1,4 @@
-Acesse através do link - https://0rodrigo0.github.io/Curriculo-Web/index.html
+Acesse através do link - https://0rodrigo0.github.io/Curriculo-Web/
 
 
 # Contatos:
