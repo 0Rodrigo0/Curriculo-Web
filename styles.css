@@ -401,7 +401,7 @@ footer {
   }
 
   .timeline {
-    width: 500px;
+    width: auto;
     margin: auto;
     position: relative;
     display: flex;
