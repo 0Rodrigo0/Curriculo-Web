@@ -317,7 +317,7 @@ footer {
   }
 
   main {
-    width: auto;
+    width: 600px;
   }
 
   section {
@@ -325,7 +325,7 @@ footer {
   }
 
   .divider {
-    width: 500px;
+    width: 600px;
   }
 
   h1.nome {
@@ -354,11 +354,11 @@ footer {
   }
 
   .box {
-    width: auto;
+    width: 600px;
   }
 
   .box1 {
-    width: auto;
+    width: 600px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -367,7 +367,7 @@ footer {
   }
 
   .box2 {
-    width: auto;
+    width: 500px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -418,6 +418,6 @@ footer {
   }
 
   footer {
-    width: auto;
+    width: 600px;
   }
 }
