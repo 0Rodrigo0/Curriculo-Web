@@ -324,6 +324,10 @@ footer {
     width: 600px;
   }
 
+  .divider {
+    width: 500px;
+  }
+
   h1.nome {
     width: 500px;
   }
@@ -350,11 +354,11 @@ footer {
   }
 
   .box {
-    width: 600px;
+    width: auto;
   }
 
   .box1 {
-    width: 600px;
+    width: auto;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -363,7 +367,7 @@ footer {
   }
 
   .box2 {
-    width: 500px;
+    width: auto;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -414,6 +418,6 @@ footer {
   }
 
   footer {
-    width: 600px;
+    width: auto;
   }
 }
