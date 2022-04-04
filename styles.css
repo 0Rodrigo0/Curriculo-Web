@@ -339,15 +339,18 @@ footer {
 
   h1.nome {
     width: 500px;
+    font-size: medium;
   }
 
   h2.nome {
     width: 500px;
+    font-size: small;
   }
 
   h3.texto {
-    width: 500px;
+    width: 400px;
     text-align: center;
+    font-size: small;
   }
 
   .icons-align {
@@ -355,7 +358,8 @@ footer {
   }
 
   .icons {
-    width: 500px;
+    width: 450px;
+    height: 40%;
   }
 
   .icons2 {
@@ -384,7 +388,7 @@ footer {
   }
 
   .box3 {
-    width: 200px;
+    width: 100px;
   }
 
   .box-item {
@@ -401,7 +405,7 @@ footer {
   }
 
   .btn-imprimir {
-    width: 500px;
+    width: 400px;
   }
 
   .formacao {
@@ -414,7 +418,7 @@ footer {
   }
 
   .timeline {
-    width: auto;
+    width: 500px;
     margin: auto;
     position: relative;
     display: flex;
@@ -424,6 +428,10 @@ footer {
 
   .timeline ul {
     padding: 0;
+  }
+
+  .timeline-content h3 {
+    font-size: medium;
   }
 
   footer {
