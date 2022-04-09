@@ -465,3 +465,120 @@ footer {
 }
 
 /************** Very Small devices *************/
+
+@media (max-width: 405px) {
+  body {
+    max-width: 210px;
+  }
+  header {
+    max-width: 210px;
+    max-height: 160px;
+  }
+  div.cabecalho {
+    max-width: 210px;
+  }
+
+  .foto-rodrigo {
+    max-width: 150px;
+  }
+
+  main {
+    max-width: 210px;
+  }
+  section {
+    max-width: 210px;
+  }
+
+  h1.nome {
+    font-size: small;
+  }
+  h2.nome {
+    font-size: x-small;
+  }
+
+  h3.texto {
+    max-width: 210px;
+    font-size: xx-small;
+  }
+
+  .timeline-content h3.date {
+    font-size: 8px;
+    margin: 0;
+  }
+
+  .timeline-content p {
+    font-size: 8px;
+    margin: 0;
+  }
+
+  .nomeCurso {
+    font-size: 0.5rem;
+  }
+  .divider {
+    max-width: 210px;
+    max-height: 90px;
+  }
+  .divider2 {
+    max-width: 210px;
+  }
+  .icons-align {
+    max-width: 210px;
+  }
+  .icons {
+    max-width: 160px;
+    height: 20px;
+    padding: 20px 0;
+  }
+  .icons2 {
+    max-width: 160px;
+  }
+  .printer-btn {
+    max-width: 210px;
+  }
+  .btn-imprimir {
+    max-width: 160px;
+  }
+
+  .printer-btn {
+    max-width: 1.5rem;
+  }
+  .printer-btn:hover {
+    height: 1.8rem;
+    transition: 0.5s;
+  }
+  .box {
+    max-width: 210px;
+  }
+  .box1 {
+    max-width: 160px;
+  }
+  .box2 {
+    max-width: 210px;
+    padding: 0;
+    flex-direction: column;
+  }
+  .box3 {
+    max-width: 210px;
+  }
+  .box-item {
+    max-width: 160px;
+  }
+  .sobre {
+    max-width: 160px;
+  }
+
+  img.contatos {
+    height: 1rem;
+  }
+
+  footer {
+    max-width: 210px;
+  }
+  .timeline {
+    max-width: 160px;
+  }
+
+  .timeline ul {
+    padding: 0;
+  }
+}
