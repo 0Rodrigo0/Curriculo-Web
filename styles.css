@@ -354,6 +354,9 @@ footer {
   .box1 {
     max-width: 768px;
   }
+  .box2 {
+    padding: 35px;
+  }
   .box3 {
     max-width: 768px;
   }
@@ -433,7 +436,7 @@ footer {
   }
   .box2 {
     max-width: 400px;
-    justify-content: space-between;
+    padding: 0;
   }
   .box3 {
     max-width: 70px;
@@ -460,3 +463,5 @@ footer {
     padding: 0;
   }
 }
+
+/************** Very Small devices *************/
