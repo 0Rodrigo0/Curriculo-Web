@@ -372,4 +372,91 @@ footer {
   }
 }
 
-/************** Medium devices *************/
+/************** Small devices *************/
+
+@media (max-width: 758px) {
+  body {
+    max-width: 400px;
+  }
+  header {
+    max-width: 400px;
+    max-height: 200px;
+  }
+  div.cabecalho {
+    max-width: 400px;
+  }
+  main {
+    max-width: 400px;
+  }
+  section {
+    max-width: 400px;
+  }
+
+  h1.nome {
+    font-size: medium;
+  }
+  h2.nome {
+    font-size: small;
+  }
+
+  h3.texto {
+    max-width: 350px;
+    font-size: x-small;
+  }
+  .divider {
+    max-width: 400px;
+  }
+  .divider2 {
+    max-width: 400px;
+  }
+  .icons-align {
+    max-width: 400px;
+  }
+  .icons {
+    max-width: 350px;
+    height: 30px;
+  }
+  .icons2 {
+    max-width: 350px;
+  }
+  .printer-btn {
+    max-width: 400px;
+  }
+  .btn-imprimir {
+    max-width: 350px;
+  }
+  .box {
+    max-width: 400px;
+  }
+  .box1 {
+    max-width: 350px;
+  }
+  .box2 {
+    max-width: 400px;
+    justify-content: space-between;
+  }
+  .box3 {
+    max-width: 70px;
+  }
+  .box-item {
+    max-width: 350px;
+  }
+  .sobre {
+    max-width: 350px;
+  }
+
+  img.contatos {
+    height: 1.5rem;
+  }
+
+  footer {
+    max-width: 400px;
+  }
+  .timeline {
+    max-width: 350px;
+  }
+
+  .timeline ul {
+    padding: 0;
+  }
+}
