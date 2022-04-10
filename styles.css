@@ -474,11 +474,12 @@ footer.dark-mode {
     max-width: 350px;
   }
 
-  .printer-btn {
-    max-width: 400px;
-  }
   .btn-imprimir {
-    max-width: 350px;
+    max-width: 100px;
+  }
+
+  #printer {
+    width: 40%;
   }
   .box {
     max-width: 400px;
