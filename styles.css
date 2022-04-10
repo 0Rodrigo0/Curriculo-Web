@@ -153,7 +153,6 @@ section.dark-mode {
 }
 
 button {
-  text-decoration: none;
   border: none;
   padding: 10px 10px;
   border-radius: 25px;
@@ -161,6 +160,7 @@ button {
   color: white;
   width: 7rem;
   height: 2.5rem;
+  display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -584,21 +584,11 @@ footer.dark-mode {
   .icons2 {
     max-width: 160px;
   }
-  .printer-btn {
-    max-width: 210px;
+
+  .dark-mode {
+    width: 50px;
   }
 
-  .btn-imprimir {
-    max-width: 160px;
-  }
-
-  .printer-btn {
-    max-width: 1.5rem;
-  }
-  .printer-btn:hover {
-    height: 1.8rem;
-    transition: 0.5s;
-  }
   .box {
     max-width: 210px;
   }
