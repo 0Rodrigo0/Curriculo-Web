@@ -589,6 +589,14 @@ footer.dark-mode {
     width: 50px;
   }
 
+  .btn-imprimir {
+    max-width: 100px;
+  }
+
+  #printer {
+    width: 40%;
+  }
+
   .box {
     max-width: 210px;
   }
