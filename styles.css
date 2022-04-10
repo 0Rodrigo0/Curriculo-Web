@@ -20,13 +20,12 @@ header {
   background-image: url(https://images.squarespace-cdn.com/content/v1/58c7045df5e231d853fa8978/1495084929844-R8DL7D1E20AO400XC23L/image-asset.jpeg);
   background-size: cover;
   width: 900px;
-  background-color: aliceblue;
   height: 250px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-div.cabecalho {
+.cabecalho {
   margin-top: 10%;
   margin-bottom: 0;
   position: relative;
@@ -72,18 +71,28 @@ h3.texto {
   font-size: medium;
 }
 
-main {
+#changecolor {
   width: 900px;
   background-color: rgb(248, 244, 244);
 }
 
+#changecolor.dark-mode {
+  background-color: rgb(49, 45, 45);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 section {
   width: 900px;
-  background-color: rgb(248, 244, 244);
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+section.dark-mode {
+  background-color: rgb(49, 45, 45);
 }
 
 .divider {
@@ -91,12 +100,18 @@ section {
 }
 
 .divider2 {
-  background-color: rgb(248, 244, 244);
   height: 20px;
 }
 
 .icons-align {
-  background-color: rgb(248, 244, 244);
+  width: 850px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-align.dark-mode {
   width: 850px;
   position: relative;
   display: flex;
@@ -124,17 +139,68 @@ section {
   align-items: center;
 }
 
-.printer-btn {
-  height: 40px;
+.btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.printer-btn:hover {
-  height: 55px;
-  transition: 0.5s;
+.dark-mode {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  text-decoration: none;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 25px;
+  background-color: rgb(83, 75, 75);
+  color: white;
+  width: 7rem;
+  height: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(17, 16, 16);
+  width: 7rem;
+  height: 2.5rem;
+}
+
+button.dark-mode {
+  background-color: white;
+  color: rgb(94, 93, 93);
+  width: 7rem;
+  height: 2.5rem;
+}
+
+button.dark-mode:hover {
+  background-color: rgb(179, 170, 170);
+  width: 7rem;
+  height: 2.5rem;
+}
+
+#printer {
+  width: 20%;
+  cursor: pointer;
+}
+
+#printer:hover {
+  width: 25%;
+}
+
+.btn-imprimir {
+  width: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 .box {
-  background-color: rgb(248, 244, 244);
   width: 850px;
   height: auto;
   position: relative;
@@ -144,7 +210,6 @@ section {
 }
 
 .box1 {
-  background-color: rgb(248, 244, 244);
   width: 850px;
 }
 
@@ -166,7 +231,6 @@ section {
 .box-item {
   width: 800px;
   height: 200px;
-  background-color: rgb(248, 244, 244);
   border-top: 1px solid rgb(155, 151, 151);
   position: relative;
   display: grid;
@@ -177,20 +241,11 @@ section {
 .sobre {
   width: 800px;
   height: 150px;
-  background-color: rgb(248, 244, 244);
-}
-
-.btn-imprimir {
-  width: 800px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 footer {
+  background: rgb(248, 244, 244);
   border-top: 1px solid black;
-  background-color: rgb(248, 244, 244);
   width: 900px;
   height: 100px;
   position: relative;
@@ -201,12 +256,8 @@ footer {
   left: 0;
 }
 
-.box-footer {
-  width: 800px;
-  height: 100px;
-  position: relative;
-  display: flex;
-  justify-content: space-around;
+footer.dark-mode {
+  background-color: rgb(49, 45, 45);
 }
 
 /***********Inicio da time line***************/
@@ -535,6 +586,7 @@ footer {
   .printer-btn {
     max-width: 210px;
   }
+
   .btn-imprimir {
     max-width: 160px;
   }

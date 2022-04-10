@@ -22,14 +22,17 @@
         </div>
       </div>
     </header>
-    <main>
+    <main id="changecolor">
       <div class="divider"></div>
-
-      <section class="section">
-        <div class="icons-align">
+      <section id="changecolor1" class="section">
+        <div id="changecolor2" class="icons-align">
           <div class="icons">
             <img class="html-ico" src="html5.svg" alt="imagem java" />
-            <img class="css-ico" src="csswizardry.svg" alt="imagem java" />
+            <img
+              class="css-ico"
+              src="https://camo.githubusercontent.com/119b29ca4b9d31cf3969a94eb57fcfbbea0879b493c09c89dc6d4b7fb9e0dc37/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6373732d332e737667"
+              alt="imagem java"
+            />
             <img class="java-ico" src="java.svg" alt="imagem java" />
             <img
               class="postgre-ico"
@@ -47,7 +50,7 @@
       </section>
 
       <section class="section">
-        <div class="box">
+        <div id="changecolor3" class="box">
           <div class="box-item">
             <div class="sobre">
               <h3 class="texto">
@@ -58,10 +61,14 @@
                 framework Spring Boot. O banco de dados Postgre e o Angular é o
                 framework de front end.
               </h3>
+            </div>
+            <div class="btn">
+              <div class="dark-mode">
+                <button id="mode-selector" class="dark-btn">Dark Mode</button>
+              </div>
               <div class="btn-imprimir">
                 <img
-                  type="button"
-                  class="printer-btn"
+                  id="printer"
                   src="printer.svg"
                   alt="imagem postgre"
                   onClick="window.print()"
@@ -143,26 +150,24 @@
       </section>
     </main>
 
-    <footer>
-      <div class="box-footer">
-        <div class="icons2">
-          <a href="https://linkedin.com/in/rodrigo-blw" target="_blank"
-            ><img class="linkedin" src="linkedin.svg" alt="imagem linkedin"
-          /></a>
+    <footer id="changecolor3">
+      <div class="icons2">
+        <a href="https://linkedin.com/in/rodrigo-blw" target="_blank"
+          ><img class="linkedin" src="linkedin.svg" alt="imagem linkedin"
+        /></a>
 
-          <a href="https://github.com/0rodrigo0" target="_blank">
-            <img class="github" src="github.svg" alt="imagem github"
-          /></a>
+        <a href="https://github.com/0rodrigo0" target="_blank">
+          <img class="github" src="github.svg" alt="imagem github"
+        /></a>
 
-          <a
-            href="https://api.whatsapp.com/send?phone=5551984065069&text=Oi Rodrigo, tudo bem? Quero falar com você..."
-            class="button"
-            target="_blank"
-          >
-            <img class="whatsapp" src="whatsapp.svg" alt="imagem whatsapp"
-          /></a>
-        </div>
+        <a
+          href="https://api.whatsapp.com/send?phone=5551984065069&text=Oi Rodrigo, tudo bem? Quero falar com você..."
+          target="_blank"
+        >
+          <img class="whatsapp" src="whatsapp.svg" alt="imagem whatsapp"
+        /></a>
       </div>
     </footer>
+    <script src="darkmode.js"></script>
   </body>
 </html>
